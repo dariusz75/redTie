@@ -1,0 +1,952 @@
+
+/* Copyright 2015 Octink. All rights reserved. */
+/* Colours mainly used
+logo dark blue - #0078C1
+logo light blue - #97c0e6
+logo grey - #929396
+light grey - #cdced1
+dark grey - #262728
+*/
+
+body {
+
+  background-color: #0078C1;
+}
+
+#centralRTT {
+
+  background-color: #0078C1; 
+  margin-top: 30px;
+  
+}
+
+#headstyle {
+  width: 100%;  
+}
+
+#helpcell {
+  display: none;
+}
+
+/* =========================== LOG OUT PAGE ========================= */
+
+.displayboxheading{
+  background-color: #939597;
+}
+
+#homeLogin div:nth-of-type(2) {
+position: relative;
+top: -261px;
+}
+
+#homeLogin div:nth-of-type(1) {
+position: relative;
+}
+
+#homeLogin div:nth-of-type(1) span.heading {
+position: absolute;
+top: 15px;
+right: -209px;
+background-color: #96BFE6;
+font-size: 12px;
+padding: 9px 79px 9px 10px;
+}
+
+#indexNewCustomer {
+position: absolute;
+top: -220px;
+right: -231px;
+padding: 10px 21px 10px 10px;
+background-color: #939597;
+}
+
+
+#indexForgotten {
+background-color: #0078C1;
+width: 100px;
+height: 20px;
+padding: 5px 1px 2px 1px;
+margin-top: -30px;
+margin-left: 98px
+}
+
+#indexForgotten a {
+position: absolute;
+color: white;
+font-size: 9px; 
+margin-left: 13px
+}
+
+#indexLogin a{
+background-color: #FF9933;
+color: white;
+padding-top: 5px;
+}
+
+
+
+/* =========================== HEADER AND NAVIGATION ========================= */
+
+
+#bannerBehind {
+  position:absolute;
+    left:0;
+    right:0;    
+    height: 211px;
+    background:#FFFFFF;
+    z-index:-1;
+}
+
+.bannerLogo {
+  background-color: #FFFFFF;
+  padding: 30px 20px 18px 20px;
+}
+
+
+
+/* ========= MAIN NAVIGATION ========= */
+
+ul#navivert {
+  width: auto;
+  background-color: white;
+  float: right;
+  font-size: 10px;
+  /* border-bottom: 8px solid #706F6F; */
+  margin-bottom: 15px;
+}
+
+ul#navivert {
+  text-align: right;
+}
+
+ul#navivert li a {
+  width: 142px;
+  background-color: white;
+  color: black;  
+}
+
+
+ul#navivert li a span {
+  margin: 7px 0 0 0;
+}
+
+ul#navivert li a:hover {
+  color: #FFFFFF;
+  background: #97c0e6;
+}
+
+.activemenuitem {
+  background: #706F6F !important;
+  color: white !important;
+}
+
+#navButtCatelogue{
+background: url(https://googledrive.com/host/0BwH8qt4hNhT5VmJOZlhXZ194SW8/);
+ background-repeat: no-repeat;
+background-position: 35px 0px;
+
+}
+
+#navButtBasket{
+background: url(https://googledrive.com/host/0BwH8qt4hNhT5cnZHYktNdlJwWnM/);
+background-repeat: no-repeat;
+background-position: 5px 0px;  
+}
+
+
+/* ============== Drop down Menu ============== */
+
+#liDropDown #navButtAccount a{
+  padding-top: 7px;
+  background: url(https://googledrive.com/host/0BwH8qt4hNhT5d0Y5TE9ESFFCQUE/);
+  background-repeat: no-repeat;
+  background-position: 15px 10px;  
+  
+}
+
+#liDropDown #navButtAccount a:hover{
+background-color: #97c0e6;
+  }
+
+
+#navivert li:nth-of-type(2) a {
+  margin-right: 570px;
+}
+
+
+ul#navivert li:nth-of-type(5) > a:hover {
+  border-bottom: 0px;
+}
+
+ul#navivert li:nth-of-type(5) > a:hover {
+  border-bottom: 0px;
+}
+
+#liDropDown > a {
+  line-height: 22px
+}
+
+#liDropDown {
+  position:relative;
+}
+
+
+#headzupsock li:hover #ulDropDown {
+    z-index:2;
+    opacity:1;
+}
+
+ 
+#ulDropDown {
+    position:absolute;
+    top:28px;
+    right: 1px;
+    z-index:-1;
+    opacity:0;
+    width: 142px;
+}
+ 
+#ulDropDown li {
+    display:block !important;
+    font-size:11px;
+    width: 142px;
+    float:right;
+    background: none !important;
+}
+
+#ulDropDown li a {
+    background: white !important;
+}
+
+
+
+#ulDropDown li a:hover {
+     background: #97c0e6 !important;
+}
+
+
+ul#navivert li #ulDropDown li a {
+  width: 142px;
+  padding-top: 10px;
+}
+
+
+#ulDropDown li a span {
+  display:block !important;
+}
+
+#navButtHistory{
+  position: relative;   
+  top: -10px;
+}
+
+#navButtEdit{
+  position: relative;   
+  top: -10px;
+}
+
+#navButtLogout{
+  position: relative;   
+  top: -10px;
+}
+
+
+/* ======================== Top Section of the main content =================== */
+
+#projectscell, #balancecell  {
+  display:none;
+}
+
+#projectscell p a {
+  color: white
+}
+
+#basketcell p a {
+  color: white
+}
+
+#balancecell p{
+  color: #262728;
+}
+
+#AskQuestioncell{
+  display: none;
+}
+
+#AskQuestioncell p a {
+  color: white
+}
+
+#helpcell {
+  float: right;
+}
+
+.centrealign p{
+  color: #cdced1; 
+}
+
+#helpcell p a {
+  color: white
+}
+
+.leftalign div strong a {
+  color: white;
+}
+
+.leftalign div strong  {
+  color: #262728;
+}
+
+table a{
+  color: white;
+}
+
+table a:hover{
+  color: white;
+}
+
+
+
+/* ======================== STEPS ========================== */
+.stepsPlain p{
+  color: white
+}
+
+.stepsPlain, .stepsHighlight {
+  background-color: #97c0e6;
+  position:relative;
+  width: 235px;
+  margin: 10px 15px 25px 0;
+  border-radius: 3px;
+}
+.stepsPlain:after {
+  content: "";  
+  border-top: 16px solid #0078C1;
+  border-bottom: 16px solid #0078C1;
+  border-left: 16px solid #97c0e6;
+  position: absolute; right: -13px; top: 0px;
+}
+
+.stepsPlain:before {
+  content: "";  
+  border-top: 16px solid #97c0e6;
+  border-bottom: 16px solid #97c0e6;
+  border-left: 16px solid #0078C1;
+  position: absolute; right: 221px; top: 0px;
+ }
+
+.stepsPlain:first-of-type::before {
+  content: none;  
+ }
+
+.stepsHighlight {
+  background-color: #929396;
+}
+
+.stepsHighlight:after {
+  content: "";  
+  border-top: 16px solid #0078C1;
+  border-bottom: 16px solid #0078C1;
+  border-left: 16px solid #929396;
+  position: absolute; right: -13px; top: 0px;
+}
+
+.stepsHighlight:before {
+  content: "";  
+  border-top: 16px solid #929396;
+  border-bottom: 16px solid #929396;
+  border-left: 16px solid #0078C1;
+  position: absolute; right: 221px; top: 0px;
+ }
+
+.stepsHighlight p {
+ color: white ;
+}
+
+.noAfter:after {
+  display:none;
+}
+
+.noBefore:before {
+  display:none;
+}
+
+/* ============================== products =========================== */
+
+#epconfig.visible {
+  width: 450px !important;
+}
+
+.backgroundBlue, .epspacer {
+  background-color: #0078C1 !important;
+}
+
+.categoryGridTD{
+  background-color: #97c0e6;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+ 
+   
+}
+
+.productGridTD{
+  background-color: #97c0e6;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.leftalign table:nth-child(1) tbody tr {
+ background-color: #0078C1;
+}
+
+.leftalign table:nth-child(1) tbody tr td:nth-child(2) {
+  padding-right: 15px;
+  
+}
+
+#categoryGridTable td {
+  border: none !important;
+}
+
+#categoryGridTable td {
+  background: #96BFE6;
+  border: 5px solid #0078C1 !important;
+  
+}
+
+
+#productGridTable td {
+  background: #96BFE6;
+  border: 5px solid #0078C1 !important;
+  padding: 10px 0px 7px 0px;
+}
+
+.centrealign_split .leftalign table tbody tr td.stepsHighlight.noBefore::after{
+  display: none !important
+}
+
+#targetImage {
+  border: 0px !important;
+}
+
+/* =============================== approval page ============================ */
+
+.ApprovalCentrealign {
+   background-color: #97c0e6 !important;
+}
+
+
+/* =============================== basket ============================ */
+
+p.underSteps {
+  margin: 20px 0px 30px;
+}
+
+.underSteps a{
+  color: #0078C1;
+  background-color: #97c0e6;
+  padding: 7px;
+  font-weight: bold;
+}
+
+.cell_net, .cell_tax, .cell_gross{  
+  color: white;
+}
+
+.bgcanv td {
+  background-color: #97c0e6;
+}
+
+tr#orderTotal td.bgmed {
+  display: none
+} 
+
+tr#deliveryOptions {
+  background-color: #97c0e6;
+}
+
+#STOP_PONUMBER_TEXT {
+  position: relative;
+  left:-385px;
+}
+
+strong#STOP_PONUMBER_TEXT {
+  font-size: 16px;
+  font-weight: normal;
+  color:white;
+}
+
+
+strong#STOP_PONUMBER_TEXT:before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 7px;
+  right: 2px;
+  height: 26px;
+  width: 26px;
+  background: url(https://googledrive.com/host/0BwH8qt4hNhT5akhqZmRsRk5Bclk/) top left no-repeat;
+  }
+
+  #STOP_PONUMBER {
+  text-align: center;
+  margin-left: -350px;
+  margin-top: -10px;
+  }
+
+  #poInput input {
+  width: 180px;
+}
+
+span#potext {
+  color: white
+}
+
+.orderarray {
+  background: none;
+  border: 0px;
+  background-color: #97c0e6;
+}
+
+/* ====================== Selected product ===================== */
+
+.brandboxshell:nth-of-type(4), .brandboxshell:nth-of-type(5) {
+  display:none;
+
+}
+
+.displayboxheading{
+  background-color: #929396;
+}
+
+.whitego{
+  background-color: #0078C1
+}
+
+.displayboxbody{
+  background-color:  #97c0e6
+}
+
+
+.brandboxshell, .epconfig, .editPrintBkCol, #eppreview, #eppages, #addnotes{
+  background-color: #97c0e6;
+  border: none
+}
+
+
+.printpages{
+  background-color: red
+}
+
+.printpages{
+  background-color: #97c0e6
+}
+
+#potext a font{
+color: white;
+  
+}
+
+#leftCol{
+  width: 507px;
+  float: left;
+ 
+  background-color: #97c0e6 
+}
+
+#rightcol{
+  position: absolute;
+  width: 483px;
+  height: 752px;
+  padding-left: 5px;
+  padding-right: 10px;
+  float: right;
+  background-color: #97c0e6 !important
+}
+
+#eptotal{
+  width: 100%;
+}
+
+.epconfig{
+  width: 100%;
+}
+
+#epconfig.visible{
+  width: 300px;
+}
+/* ======================== Order confirm ===================== */
+#paymentMessage, #testTransaction {
+  display: none;
+}
+
+
+#CustomPaymentInfo{
+  background-color: white;
+  border: solid 5px #0078C1;
+  
+}
+
+tr#orderNumber, #customerName, #billingAddress, #deliveryAddress, 
+#phoneNumber, #emailAddress, #paymentMessage, #poNumber, #testTransaction{
+  background-color: #efefef;;
+  border: solid 1px #0078C1; 
+  padding-left: 15px;
+ 
+}
+
+.bgmed {  
+  background-color:  white;  
+  border-bottom: solid 1px #0078C1;
+  text-align: left;
+  /* padding-left: 25px */
+  padding-left: 25px;
+  
+}
+
+
+.bgmed strong{
+  color: black !important;
+
+}
+
+#orderNumber td  {padding-left: 15px ;}
+#customerName td  {padding-left: 15px ;}
+#billingAddress td  {padding-left: 15px ;}
+#deliveryAddress td  {padding-left: 15px ;}
+#phoneNumber td  {padding-left: 15px ;}
+#emailAddress td  {padding-left: 15px ;}
+#poNumber td  {padding-left: 15px ;}
+#testTransaction td  {padding-left: 15px ;}
+#testTransaction td  {padding-left: 15px ;}
+
+
+#CustomPaymentInfo table tbody tr td label a{
+  color: #0078C1;
+}
+
+.betabutton a {
+  color: #0078C1;
+}
+
+strong#product_title_1, strong#product_title_2, strong#product_title_3, strong#product_title_4, strong#product_title_5,
+strong#product_title_6, strong#product_title_7, strong#product_title_8, strong#product_title_9, strong#product_title_10,
+strong#product_title_11, strong#product_title_12, strong#product_title_13, strong#product_title_14, strong#product_title_15
+ {
+  color: black;
+}
+
+#row_product_1, #row_product_2, #row_product_3, #row_product_4, #row_product_5,
+#row_product_6, #row_product_7, #row_product_8, #row_product_9, #row_product_10,
+#row_product_11, #row_product_12, #row_product_13, #row_product_14, #row_product_15 {
+  border-top: solid 5px white
+}
+
+#cell_product_qty_1, #cell_product_qty_2, #cell_product_qty_3, #cell_product_qty_4, #cell_product_qty_5,
+#cell_product_qty_6, #cell_product_qty_7, #cell_product_qty_8, #cell_product_qty_9, #cell_product_qty_10,
+#cell_product_qty_11, #cell_product_qty_12, #cell_product_qty_13, #cell_product_qty_14, #cell_product_qty_15 {
+text-align: right;
+padding-right: 28px
+}
+
+#cell_product_price_1, #cell_product_price_2, #cell_product_price_3, #cell_product_price_4, #cell_product_price_5, 
+#cell_product_price_6, #cell_product_price_7, #cell_product_price_8, #cell_product_price_9, #cell_product_price_10, 
+#cell_product_price_11, #cell_product_price_12, #cell_product_price_13, #cell_product_price_14, #cell_product_price_15 {
+  text-align: left;
+  padding-left: 40px
+}
+
+.checkoutOrderDetails {
+  padding-left: 0px;
+}
+
+
+/* ======================== My details ========================= */
+
+.mandatory {
+  padding-bottom: 10px !important;
+}
+
+#newCustomer{
+  background-color: #97c0e6;
+}
+
+.bglight{
+ background-color:  white;
+ color: black
+}
+
+.betabutton a:hover{
+  color: black;
+}
+
+
+.centrealign_split table tbody tr td strong{
+  color: white;
+  
+}
+
+
+
+/* ======================== Make sticky footer  ===============================*/
+
+html, body {
+  height: 100%;
+}
+.centrealign_split {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -70px; 
+}
+.centrealign_split:after {
+  content: "";
+  display: block;
+}
+.footContent, .centrealign_split:after {
+  height: 70px; 
+}
+.footContent {
+  background: #000000;
+}
+
+
+
+/* ==================== Footer =============== */
+
+#innerFooter {
+    width: 1000px;
+    height: 50px;
+    margin: 20px auto 0px auto;
+
+}
+
+#innerFooter p {
+  color: black;
+  padding-top:  0px;
+  padding-left: 0px;
+  text-decoration: none;
+  display: inline !important;
+}
+
+#footContent {
+    position: absolute;
+    left:0;
+    right:0;
+  
+    padding-bottom: 20px;
+    /* height:70px; */
+    background:#FFFFFF;
+}
+
+
+.botlinks {
+  text-align: left;
+  float:left;
+}
+
+.botlinks p span {
+  color: #33A3B2;
+    color: black;
+}
+
+
+.botlinks  a {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+}
+
+#footer-image {
+    position: relative;
+    float:right;
+}
+
+
+
+#copyContent {
+  position: relative;
+  top: -25px;
+  }
+
+#copyContent a {
+  color: black;
+}
+
+/* ========= Order Confirmation =========  */
+
+.invoiceback {
+  margin: 0 auto;
+  background-image: none;
+  background-color:#97c0e6;
+  border-radius: 15px;
+  height: 100%
+}
+
+.invoiceback p {
+  margin: 0 auto !important;
+  text-align: center !important;
+  padding: 20px !important;
+  font-size: 16px
+}
+  
+
+/* ========= BUTTONS =========  */
+
+p.continueShopping {
+  margin: 50px 0px 40px 0px;
+}
+
+p.continueShopping a {
+  color: #ffffff;
+  font-size: 16px;
+  background: #33A3B2;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+p.continueShopping.underSteps {
+  text-align: right;
+  margin: 20px 0px 40px 0px;
+}
+
+p.continueShopping a:before { 
+content: "< ";
+color:white;
+}
+
+p.continueShopping a:hover, p.continueShopping a:hover::before  {
+  text-decoration: none;
+  color: black;
+}
+
+#continueButton {
+height: 0px;
+}
+
+#continueButtonEnv {
+margin-left: 9px !important;
+}
+
+#continueButtonEnv #continueButton {
+  border: 0px;
+}
+
+#ORDER_CONTINUE, #STOP_COURIER_ADDRESS, #STOP_COURIER, #STOP_ADDRESS, #STOP_SIGNOFF, #STOP_PONUMBER, #STOP_PONUMBER_TEXT, #STOP_NSCONTACT, #STOP_NSCONTACT_TEXT, #STOP_OTHER, #STOP_ADDRESS {
+  background-color: #0078C1;
+  border: 0px;
+  padding-right: 0px !important;
+  text-align: right !important;
+  color: #AE3333;
+}
+
+.betabutton {
+    margin: 10px 0px 30px -15px;
+}
+
+.visible .betabutton {
+    margin: 10px 0px 0px -15px;
+}
+
+
+.gammabutton a, .betabutton a {
+margin-right: 0px !important;
+}
+
+.betabutton a {
+background: none;
+}
+
+.gammabutton a span, .betabutton a span, #STOP_SIGNOFF a, #STOP_ADDRESS a{
+  background: none;
+  background: #e03e3e;
+  background-image: -webkit-linear-gradient(top, #e03e3e, #852525);
+  background-image: -moz-linear-gradient(top, #e03e3e, #852525);
+  background-image: -ms-linear-gradient(top, #e03e3e, #852525);
+  background-image: -o-linear-gradient(top, #e03e3e, #852525);
+  background-image: linear-gradient(to bottom, #e03e3e, #852525);
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.gammabutton a:hover span, .betabutton a:hover span, #STOP_SIGNOFF a:hover, #STOP_ADDRESS a:hover{
+  background: #e64343;
+  background-image: -webkit-linear-gradient(top, #e64343, #a33131);
+  background-image: -moz-linear-gradient(top, #e64343, #a33131);
+  background-image: -ms-linear-gradient(top, #e64343, #a33131);
+  background-image: -o-linear-gradient(top, #e64343, #a33131);
+  background-image: linear-gradient(to bottom, #e64343, #a33131);
+  text-decoration: none;
+ }
+
+#STOP_SIGNOFF a, #STOP_ADDRESS a {
+  font-size: 16px;
+}
+
+
+
+.gammabutton a {
+  background: none;
+}
+
+.cell_signoff .betabutton a span, #poInput .betabutton a span {
+  background: #B03333;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px 24px 5px 24px;
+  text-decoration: none;
+  margin: 0px 0px 30px 0px;
+}
+
+#poInput .betabutton {
+  margin-top: 0px
+}
+
+.cell_signoff .betabutton a:hover span, #poInput .betabutton a:hover span {
+  background: #B03333;
+  color: black;
+  font-size: 12px;
+  padding: 5px 24px 5px 24px;
+  text-decoration: none;
+}
+
+
+
+#deliveryAddress td.notBgmed .alphabutton a span, #deliveryAddress td.notBgmed .alphabutton a  {
+  background: none;
+  color: #33A3B2;
+  padding: 0px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+#deliveryAddress td.notBgmed .alphabutton a:hover span {
+  color: black;
+}
+
+#deliveryAddress td.notBgmed .alphabutton {
+  margin-top: 10px
+}
+
+#CustomPaymentInfo .betabutton {
+  margin: 10px -8px 30px -15px;
+}
+
+.alphabutton a#btnProdSave {
+  margin-left: 11px;
+}
+
+.alphabutton a#btnProdSave span, .alphabutton a#btnProdReset span {
+  padding: 3px 14px 9px 0px;
+}
+
+#startFromScratch {
+  display: inline-block;
+}
+
+
